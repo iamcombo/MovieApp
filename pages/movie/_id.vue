@@ -4,7 +4,7 @@
     <p v-else-if="$fetchState.error">Error while fetching posts: {{ $fetchState.error.message }}</p>
     <div v-else>
       <v-row>
-        <v-col>
+        <v-col cols="12" xl="6" lg="6" md="12" sm="6">
           <img :src= "'https://image.tmdb.org/t/p/w500/' + movie.poster_path" class="poster">
         </v-col>
         <v-col>

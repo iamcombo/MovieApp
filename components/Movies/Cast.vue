@@ -6,8 +6,8 @@
       cols="12"
       xl="3"
       lg="3"
-      md="4"
-      sm="6"
+      md="3"
+      sm="4"
     >
       <img class="profile" :src="'https://image.tmdb.org/t/p/w500/' + cast.profile_path" alt="">
       <p class="font-weight-bold">{{cast.character}}</p>

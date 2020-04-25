@@ -60,4 +60,10 @@ export default {
 .bg-tran {
   background: rgba(8, 8, 8, 0.7)!important;
 }
+.v-card {
+  transition: 0.2s ease-in-out;
+}
+.v-card:hover {
+  transform: translateY(-10px)
+}
 </style>
