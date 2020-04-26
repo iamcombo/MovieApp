@@ -16,6 +16,8 @@
     "vue-infinite-loading": "^2.4.5"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0"
+    "@nuxtjs/vuetify": "^1.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.0.0"
   }
 }

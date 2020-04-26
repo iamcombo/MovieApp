@@ -9,9 +9,11 @@
       md="3"
       sm="4"
     >
-      <img class="profile" :src="'https://image.tmdb.org/t/p/w500/' + cast.profile_path" alt="">
+      <v-card light nuxt :to="'/actor/' + cast.id">
+      <v-img max-height="350px" :src="'https://image.tmdb.org/t/p/w500/' + cast.profile_path" alt=""></v-img>
       <p class="font-weight-bold">{{cast.character}}</p>
       <span class="font-weight-light">{{cast.name}}</span>
+      </v-card>
     </v-col>
   </v-row>
 </template>
