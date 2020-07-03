@@ -1,6 +1,6 @@
 # MovieApp
 
-> My astounding Nuxt.js project
+> My Movie app project using Nuxt.js
 
 ## Build Setup
 

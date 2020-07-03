@@ -6,11 +6,12 @@
       cols="12"
       xl="3"
       lg="3"
-      md="6"
+      md="4"
       sm="6"
     >
       <v-card
         class="mx-auto"
+        max-width="300"
         light
         nuxt
         :to="'/movie/' + movie.id"

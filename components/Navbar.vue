@@ -7,19 +7,7 @@
         </v-btn>
       </v-col>
       <v-col class="d-flex justify-end align-center">
-        <v-autocomplete
-          v-model="values"
-          label="Search"
-          :items="items"
-          solo
-          rounded
-          dense
-          chips
-          small-chips
-          hide-details
-          hide-no-data
-          light
-        ></v-autocomplete>
+        
       </v-col>
     </v-row>
     <div class="nav-bg" v-if="navDrawer" @click="handleDrawer"></div>
