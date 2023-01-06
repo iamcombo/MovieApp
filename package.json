@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.7",
-    "nuxt": "^2.12.2",
+    "nuxt": "^2.15.8",
     "vue-infinite-loading": "^2.4.5"
   },
   "devDependencies": {
